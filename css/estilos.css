@@ -1,0 +1,45 @@
+h1{
+    color: blue;
+}
+/* en css tenemos 3 maneras de aplicar estilos */
+
+/*por nombre de etiqueta o selector */
+
+p{
+    color: red;
+}
+
+/*por class */
+.colorParrafo{
+    color: yellow;
+}
+
+/*por id */
+#parrafoColor{
+    color: green;
+
+}
+
+/*aplicar estilos con esta idea etiquetas padre e hijos*/
+
+main p span{
+    color: black;
+}
+
+/* sacar estilo a las listas */
+ul li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #81D6E3;
+}
+
+/*colo de fondo */
+
+body{
+    background-image: url(https://scontent.fcvj2-1.fna.fbcdn.net/v/t39.30808-6/241439190_118252023956886_7697337958979376934_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=CTWc8Z2ftVAAX8K9KXf&_nc_ht=scontent.fcvj2-1.fna&oh=00_AT-3FkY_yvy3Po5ZsDE3qw8he6p2LDVzR2K7MU2KWzE6ag&oe=61CD2FC1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
